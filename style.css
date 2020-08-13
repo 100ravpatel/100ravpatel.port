@@ -126,30 +126,11 @@ span.m-left{
     margin-top: 100px;
 }
 .about h1,
-.work h1{
+#certificate h1,
+.contact h1{
     font-size: 5rem;
     z-index: 0;
     opacity: .1;
-}
-.about-me-info{
-    max-width: 900px;
-    background-color: #252627;
-    box-shadow: 0 0 1.2rem rgba(0, 0, 0,.25);
-    padding: 50px;
-    position: relative;
-    top: -70px;
-    left: 50%;
-    right: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-}
-.about-me-info p{
-    font-size: 1.3rew;
-    color: #BEBEBE;
-}
-.about-me-info p:nth-child(2),
-.about-me-info p:last-child{
-    margin-top: 30px;
 }
 .about img {
     width: 300px;
@@ -163,7 +144,7 @@ span.m-left{
     height: 100vh;
 }
 .skills h1,
-.contact h1{
+.work h1{
     text-align: right;
     font-size: 5rem;
     opacity: .1;
@@ -185,6 +166,7 @@ span.m-left{
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 40px;
+    overflow: hidden;
 }
 div[class^='tag-']{
     text-align: center;
@@ -304,3 +286,4 @@ footer p{
 .ft{
     text-align: right;
 }
+
