@@ -37,6 +37,7 @@ a:hover{
     border: 1px solid rgba(0,0,0,0.01);
     transform: translateY(2px);
 }
+/* logo color*/
  a:hover i{
      transform: scale(0.90);
  }
@@ -57,4 +58,27 @@ a:hover .fa-github{
 }
 a:hover .fa-linkedin{
     color: #0e76a8;
+}
+
+/*document color*/
+a:hover i{
+    transform: scale(0.90);
+}
+a:hover .fa-html5{
+    color: #E44D26;
+}
+a:hover .fa-css3{
+   color: #264de4;
+}
+a:hover .fa-js{
+   color: #f0db4f;
+}
+a:hover .fa-python{
+   color: #306998;
+}
+a:hover .fa-java{
+   color: #21B6A8;
+}
+a:hover .fa-github{
+   color: #0e76a8;
 }
