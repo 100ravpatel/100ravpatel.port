@@ -1,0 +1,27 @@
+<script>
+	// init controller
+	var controller = new ScrollMagic.Controller();
+</script>
+<style type="text/css">
+#animate1 {
+	transition: transform 0.3s ease-out;
+}
+.zap {
+	transform: scale(2.5, 0);
+}
+</style>
+<div class="spacer s2"></div>
+<div id="trigger1" class="spacer s0"></div>
+<div id="animate1" class="box1 red">
+	<p>Zap.</p>
+	<a href="#" class="viewsource">view source</a>
+</div>
+<div class="spacer s2"></div>
+<script>
+	// build scene
+	var scene = new ScrollMagic.Scene({triggerElement: "#trigger1"})
+					// trigger animation by adding a css class
+					.setClassToggle("#animate1", "zap")
+					.addIndicators({name: "1 - add a class"}) // add indicators (requires plugin)
+					.addTo(controller);
+</script>
