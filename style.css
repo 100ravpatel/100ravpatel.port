@@ -33,10 +33,10 @@ header h1,
 header a,
 .text p,
 .about h1,
-.skills h1,
 .work h1,
-.contact h1{
-    color: #853a3a;;
+.contact h1,
+.logo{
+    color: black;
 }
 
 li{
@@ -122,7 +122,7 @@ span.m-left{
     box-shadow: 0 0 20px 9px aqua;
 }
 .about{
-    height: 100vh;
+    height: 50vh;
     margin-top: 100px;
 }
 .about h1,
@@ -140,26 +140,15 @@ span.m-left{
     right: calc(100%-100px);
     transform:translateX(calc(-100% +100px));
 }
-.skills{
-    height: 100vh;
-}
+
 .skills h1,
 .work h1{
     text-align: right;
     font-size: 5rem;
     opacity: .1;
 }
-.skills-info{
-    font-size: 1.4rem;
-    color: #BEBEBE;
-    max-width: 800px;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    margin-bottom: 50px;
-}
+
+
 .html{
     border-radius: 10px;
     display: flex;
@@ -183,27 +172,101 @@ div[class^='tag-'] p {
     font-size: 1.1rem;
     padding-top: 3px;
 }
-.progressbar{
-    position: relative;
-    width: 600px;
-    height: 20px;
-    border: 2px solid #48CFAD;
-    border-radius: 20px;
-    overflow: hidden;
-    margin-top: 7px;
+
+.skills li{
+    margin: 20px 0;
 }
-div[class^='bar-']{
-    position: absolute;
-    background-color: #48cfad;
-    height: 10px;
-    border-radius: 20px;
-    margin: 2.7px;
+
+
+
+/* progress bar*/
+
+
+
+.bar{
+   background: rgb(50, 223, 165);
+   display: block;
+   height: 12px;
+   border: 1px solid rgba(0,0, 0,0.3);
+   border-radius: 3px;
+   overflow: hidden;
+   box-shadow: 0 0 10px aqua;
 }
-.bar-html,
-.bar-css,
-.bar-javascript{
-    width: calc(0-6px);
+.bar span{
+    height: 12px;
+    float: left;
+    background: rgb(212, 46, 46);
 }
+.html{
+    width: 90%;
+    animation: html 2s;
+    
+}
+.css{
+    width: 90%;
+    animation: css 2s;
+}
+.js{
+    width: 75%;
+    animation: js 2s;
+}
+.python{
+    width: 40%;
+    animation: python 2s;
+}
+.java{
+    width: 30%;
+    animation: java 2s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes js{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+.skills{
+    height: 50vh;
+}
+.skills h3{
+    font-size: 25px;
+}
+
+/* end progress bar*/
+
 .work-category button{
     text-transform: capitalize;
     border: 3px solid #ED5565;
@@ -286,4 +349,6 @@ footer p{
 .ft{
     text-align: right;
 }
-
+.container-certificates{
+    padding: 0 100px 0 100px;
+}
