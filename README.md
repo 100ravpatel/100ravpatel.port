@@ -1,3 +1,3 @@
 # 100ravpatel.port
 
-My portfolio
+Open in desktop or desktop site only.
