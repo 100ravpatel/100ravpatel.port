@@ -115,11 +115,9 @@ span.m-left{
     height: 100%;
 }
 .profile-image img{
-    width: 400px;
+    width: 500px;
     height: 500px;
     margin-top: 50px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px 9px aqua;
 }
 .about{
     height: 50vh;
@@ -174,7 +172,7 @@ div[class^='tag-'] p {
 }
 
 .skills li{
-    margin: 20px 0;
+    margin: 23px 0;
 }
 
 
@@ -187,36 +185,48 @@ div[class^='tag-'] p {
    background: rgb(50, 223, 165);
    display: block;
    height: 12px;
-   border: 1px solid rgba(0,0, 0,0.3);
+   width: 50%;
+   border: 1px solid black;
    border-radius: 3px;
    overflow: hidden;
    box-shadow: 0 0 10px aqua;
+   
+}
+
+.skills{
+    height: 50vh;
+}
+.skills h3{
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-block: 3px;
+    padding-inline: 3px;
 }
 .bar span{
-    height: 12px;
+    height: 100%;
     float: left;
-    background: rgb(212, 46, 46);
+    background: rgb(73, 56, 56);
 }
 .html{
     width: 90%;
-    animation: html 2s;
-    
+    animation: html 7s;
+       
 }
 .css{
     width: 90%;
-    animation: css 2s;
+    animation: css 7s;
 }
 .js{
     width: 75%;
-    animation: js 2s;
+    animation: js 7s;
 }
 .python{
     width: 40%;
-    animation: python 2s;
+    animation: python 7s;
 }
 .java{
     width: 30%;
-    animation: java 2s;
+    animation: java 7s;
 }
 @keyframes html{
     0%{
@@ -258,12 +268,7 @@ div[class^='tag-'] p {
         width: 30%;
     }
 }
-.skills{
-    height: 50vh;
-}
-.skills h3{
-    font-size: 25px;
-}
+
 
 /* end progress bar*/
 
