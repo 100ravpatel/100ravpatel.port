@@ -183,9 +183,9 @@ div[class^='tag-'] p {
 
 
 .bar{
-    background: linear-gradien(#c6fffa);
+    background: linear-gradient(#c6fffa);
    display: block;
-   height: 20px;
+   height: 23px;
    width: 500px;
    border: 1px solid black;
    border-radius: 3px;
@@ -242,7 +242,7 @@ div[class^='tag-'] p {
     background: linear-gradient(#554d4d,#06ffea);
     border: 1px solid black;
     border-radius: 2px;
-    margin: 1px;
+    margin:2px;
 }
 button:hover{
     border: 1px solid rgba(0,0,0,0.01);
