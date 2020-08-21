@@ -222,9 +222,14 @@ div[class^='tag-'] p {
     align-items: left;
     justify-self: inline;
     display: inline-block;
-    right: 50%;
+    right: 60%;
     margin-top: 70px;
 }
+.inmain p{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
 .maindiv{
    position: relative;
