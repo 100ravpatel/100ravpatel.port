@@ -242,7 +242,7 @@ div[class^='tag-'] p {
     background: linear-gradient(#554d4d,#06ffea);
     border: 1px solid black;
     border-radius: 2px;
-    margin:2px;
+    margin:1px;
 }
 button:hover{
     border: 1px solid rgba(0,0,0,0.01);
