@@ -122,6 +122,7 @@ span.m-left{
     width: 420px;
     height: 550px;
     margin-top: 50px;
+    border-radius:5px;
 }
 .about{
     height: 50vh;
