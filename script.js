@@ -80,3 +80,18 @@ function ht() {
       }
     }
   }
+
+  function php() {
+    var elem = document.getElementById("php");   
+    var width =0;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 5) {
+        clearInterval(id);
+      } else {
+        width++; 
+        elem.style.width = width + '%'; 
+        elem.innerHTML = width * 1  + '%';
+      }
+    }
+  }
