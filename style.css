@@ -122,7 +122,6 @@ span.m-left{
     width: 420px;
     height: 550px;
     margin-top: 50px;
-    border-radius:12px;
 }
 .about{
     height: 50vh;
@@ -248,7 +247,6 @@ div[class^='tag-'] p {
 button:hover{
     border: 1px solid rgba(0,0,0,0.01);
     transform: translateY(3px);
-    box-sizing: ;
 }
 
 .skills{
