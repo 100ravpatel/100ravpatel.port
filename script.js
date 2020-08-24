@@ -86,7 +86,7 @@ function ht() {
     var width =0;
     var id = setInterval(frame, 10);
     function frame() {
-      if (width >= 5) {
+      if (width >= 12) {
         clearInterval(id);
       } else {
         width++; 
