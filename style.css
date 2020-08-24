@@ -28,7 +28,7 @@ header{
     padding: 20px 0;
 }
 .navbar{
-    background-color: #D7F7D3;
+    background:linear-gradient(rgba(0, 8, 5, 0.74),#25dfdf,rgba(50, 173, 122, 0.74));
 }
 header h1,
 header a,
@@ -187,6 +187,12 @@ div[class^='tag-'] p {
    justify-self: inline;
    cursor: no-drop;
 }
+
+.bar span{
+    height: 100%;
+    float: left;
+    background:linear-gradient(#ff0707,#2dfff4);
+}
 .sdiv{
     height: 400px;
     width: 400px;
@@ -259,11 +265,7 @@ button:hover{
     padding-block: 3px;
     padding-inline: 3px;
 }
-.bar span{
-    height: 100%;
-    float: left;
-    background: linear-gradient(#ff3d3d,#06ffea);
-}
+
 
 /* end progress bar*/
 
@@ -348,10 +350,105 @@ footer p{
     
 }
 .ft{
+    
+    background:linear-gradient(rgba(50, 173, 122, 0.74),#25dfdf,rgba(0, 8, 5, 0.74));
+}
+.ft p{
     text-align: right;
+        color: black;
 }
 .container-certificates{
     padding: 0 100px 0 100px;
+}
+
+
+
+
+/*##############  style 2   #######################*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+#soc{
+    display: flex;
+    background: #e3edf7;
+    height: 75px;
+    width: 75px;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+               -6px -6px 10px -1px rgba(255,255,255,0.7);
+    border: 1px solid rgba(0,0,0,0);
+    transition: transform 0.5s;
+
+}
+a i{
+    font-size: 35px; 
+    color: #777;
+    transition: transforn 0.5s;
+}
+
+.social-media a:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px 0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+}
+/* logo color*/
+ a:hover i{
+     transform: scale(0.90);
+ }
+ a:hover .fa-facebook{
+     color: #3b5998;
+ }
+ a:hover .fa-twitter{
+    color: #00acee;
+}
+a:hover .fa-instagram{
+    color: #f14843;
+}
+a:hover .fa-youtube{
+    color: #f00;
+}
+a:hover .fa-github{
+    color: #4078c0;
+}
+a:hover .fa-linkedin{
+    color: #0e76a8;
+}
+
+/*document color*/
+a:hover i{
+    transform: scale(0.90);
+}
+a:hover .fa-html5{
+    color: #E44D26;
+}
+a:hover .fa-css3{
+   color: #264de4;
+}
+a:hover .fa-js{
+   color: #f0db4f;
+}
+a:hover .fa-python{
+   color: #306998;
+}
+a:hover .fa-java{
+   color: #21B6A8;
+}
+a:hover .fa-github{
+   color: #0e76a8;
 }
 
 
