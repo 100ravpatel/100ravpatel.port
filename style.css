@@ -1,10 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
-
+body{
+    background-color:#CAFFEB;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -18,9 +19,7 @@ nav ul,
     flex-wrap: wrap;
     justify-content: space-between;
 }
-body{
-    background-color:#CAFFEB;
-}
+
 header{
     display: flex;
     flex-wrap: wrap;
@@ -28,7 +27,7 @@ header{
     padding: 20px 0;
 }
 .navbar{
-    background:linear-gradient(rgba(0, 8, 5, 0.74),#25dfdf,rgba(50, 173, 122, 0.74));
+    background:linear-gradient(rgba(7, 66, 44, 0.74),#25dfdf,rgba(73, 255, 179, 0.74),#25dfdf,rgba(7, 66, 44, 0.74));
 }
 header h1,
 header a,
@@ -48,13 +47,14 @@ li{
 }
 a{
     text-decoration: none;
-    font-size: .9rem;
+    font-size: 15px;
     text-transform: uppercase;
     position: relative;
     top: 50%;
     bottom: 50%;
     transform: translateY(-50%);
 }
+
 .main-info-section{
     height: calc(100vh - 81.6px);
 }
@@ -119,8 +119,8 @@ span.m-left{
     height: 100%;
 }
 .profile-image img{
-    width: 420px;
-    height: 550px;
+    width: 380px;
+    height: 500px;
     margin-top: 50px;
     border-radius: 10px;
 }
@@ -191,7 +191,7 @@ div[class^='tag-'] p {
 .bar span{
     height: 100%;
     float: left;
-    background:linear-gradient(#ff0707,#2dfff4);
+    background:linear-gradient(#25dfdf,rgba(52, 241, 162, 0.74),#25dfdf);
 }
 .sdiv{
     height: 400px;
@@ -245,7 +245,7 @@ div[class^='tag-'] p {
 .btn{
     height: 25px;
     width: 70px;
-    background: linear-gradient(#554d4d,#06ffea);
+    background: linear-gradient(#25dfdf,rgba(52, 241, 162, 0.74),#25dfdf);
     border: 1px solid black;
     border-radius: 2px;
     margin:1px;
