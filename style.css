@@ -205,8 +205,8 @@ div[class^='tag-'] p {
     margin: auto;
 }
 .sediv{
-    height: auto;
-    width: auto;
+    height: 400px;
+    width: 400px;
     position: absolute;
     margin: auto;
     white-space: nowrap;
@@ -228,7 +228,7 @@ div[class^='tag-'] p {
     margin-top: 85px;
 }
 .inmain p{
-    font-size:2.3rem;
+    font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
 }
 
