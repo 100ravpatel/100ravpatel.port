@@ -56,7 +56,7 @@ a{
 }
 
 .main-info-section{
-    height: calc(100vh - 81.6px);
+    height: 100%;
 }
 .text{
     margin-top: 120px;
@@ -119,9 +119,10 @@ span.m-left{
     height: 100%;
 }
 .profile-image img{
-    width: 380px;
-    height: 500px;
+    width:80%;
+    height:85%;
     margin-top: 50px;
+    margin-left: 23%;
     border-radius: 10px;
 }
 .about{
@@ -180,7 +181,7 @@ div[class^='tag-'] p {
     background: linear-gradient(#c6fffa);
    display: block;
    height: 23px;
-   width: 500px;
+   width: auto;
    border: 1px solid black;
    border-radius: 3px;
    overflow: hidden;
@@ -450,3 +451,5 @@ a:hover .fa-java{
 a:hover .fa-github{
    color: #0e76a8;
 }
+
+
