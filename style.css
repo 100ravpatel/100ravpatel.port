@@ -214,7 +214,6 @@ div[class^='tag-'] p {
     justify-self: inline;
     display: inline-block;
     left: 40%;
-    background-color: red;
 }
 .inmain{
     height: 400px;
