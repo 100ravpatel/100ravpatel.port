@@ -29,6 +29,30 @@ header{
 .navbar{
     background:linear-gradient(rgba(7, 66, 44, 0.74),#25dfdf,rgba(73, 255, 179, 0.74),#25dfdf,rgba(7, 66, 44, 0.74));
 }
+
+
+
+
+
+/*Container size
+
+
+.skills{
+    height: 40vh;
+}
+.contact{
+    margin-top:40px;
+}
+.about{
+    height: 40vh;
+    margin-top: 100px;
+}
+*/
+
+
+
+
+
 header h1,
 header a,
 .text p,
@@ -38,32 +62,47 @@ header a,
 .logo{
     color: black;
 }
+
+/* navbar */
 .logo h1{
     cursor: not-allowed;
+    font-family: algerian;
 }
 li{
     list-style: none;
     margin-left: 30px;
 }
+
 a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     position: relative;
     top: 50%;
     bottom: 50%;
     transform: translateY(-50%);
+    font-family:'Times New Roman', Times, serif;
 }
 
 .main-info-section{
     height: 100%;
 }
+
+
+
+
+/*Name style */
+
+
+
+
 .text{
     margin-top: 120px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .text h1{
     color: rgb(56, 51, 51);
-    font-size: 3rem;
+    font-size: 50px;
     cursor: context-menu;
     border-radius: 0;
 }
@@ -79,6 +118,7 @@ span:name{
 }
 span.name{
     color: red;
+    font-family: 'Times New Roman', Times, serif;
 }
 span.m-left{
     margin-left: -10px ;
@@ -118,6 +158,13 @@ span.m-left{
 .text a:hover::before{
     height: 100%;
 }
+
+
+/*Name style End */
+
+
+/*Profile Picture*/
+
 .profile-image img{
     width:80%;
     height:85%;
@@ -125,16 +172,17 @@ span.m-left{
     margin-left: 23%;
     border-radius: 10px;
 }
-.about{
-    height: 50vh;
-    margin-top: 100px;
-}
+
+/*About style*/
+
+
 .about h1,
 #certificate h1,
 .contact h1{
     font-size: 5rem;
     z-index: 0;
     opacity: .1;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .skills h1,
@@ -142,7 +190,11 @@ span.m-left{
     text-align: right;
     font-size: 5rem;
     opacity: .1;
+    font-family:'Times New Roman', Times, serif;
 }
+
+/*Skill style*/
+
 
 .html{
     display: flex;
@@ -171,7 +223,28 @@ div[class^='tag-'] p {
     margin: 23px 0;
 }
 
+.skills h3{
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-block: 3px;
+    padding-inline: 3px;
+}
 
+/* skill button */
+
+.btn{
+    height: 25px;
+    width: 70px;
+    background: linear-gradient(#25dfdf,rgba(52, 241, 162, 0.74),#25dfdf);
+    border: 1px solid black;
+    border-radius: 2px;
+    margin:1px;
+    cursor: pointer
+}
+button:hover{
+    border: 1px solid rgba(0,0,0,0.01);
+    transform: translateY(3px);
+}
 
 /* progress bar*/
 
@@ -205,8 +278,6 @@ div[class^='tag-'] p {
     margin: auto;
 }
 .sediv{
-    height: 400px;
-    width: 400px;
     position: absolute;
     margin: auto;
     white-space: nowrap;
@@ -216,7 +287,6 @@ div[class^='tag-'] p {
     left: 40%;
 }
 .inmain{
-    height: 400px;
     width: 400px;
     position: absolute;
     margin: auto;
@@ -231,42 +301,10 @@ div[class^='tag-'] p {
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
 }
-
-
 .maindiv{
-   position: relative;
    top: 70%;
    left: 50%;
-   transform: translateX(-50%) translateY(-50%);
-
 }
-
-/* skill button */
-
-.btn{
-    height: 25px;
-    width: 70px;
-    background: linear-gradient(#25dfdf,rgba(52, 241, 162, 0.74),#25dfdf);
-    border: 1px solid black;
-    border-radius: 2px;
-    margin:1px;
-    cursor: pointer
-}
-button:hover{
-    border: 1px solid rgba(0,0,0,0.01);
-    transform: translateY(3px);
-}
-
-.skills{
-    height: 50vh;
-}
-.skills h3{
-    font-size: 26px;
-    font-family: 'Times New Roman', Times, serif;
-    padding-block: 3px;
-    padding-inline: 3px;
-}
-
 
 /* end progress bar*/
 
@@ -310,11 +348,9 @@ div.hidecategory{
 .showcategory{
     display: block;
 }
-.contact{
-    margin-top:50px;
-}
+
 form input,
-form textarea {
+textarea {
     display: block;
     width: 500px;
     padding: 20px;
@@ -329,11 +365,13 @@ form textarea {
     right: 50%;
     transform: translateX(-50%);
 }
-form input:last-child{
-    width: 150px;
+#contact form #btlast{
+    width: 120px;
     background-color: #ED5565;
     border: none;
     cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 footer hr{
     border: 2px solid #707070;
@@ -348,7 +386,6 @@ footer p{
 #about p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
-    
 }
 .ft{
     
@@ -361,9 +398,6 @@ footer p{
 .container-certificates{
     padding: 0 100px 0 100px;
 }
-
-
-
 
 /*##############  style 2   #######################*/
 
