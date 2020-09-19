@@ -350,17 +350,28 @@ div.hidecategory{
     display: block;
 }
 
-form input,
-textarea {
+form input{
     display: block;
-    width: 500px;
-    padding: 20px;
-    background-color: #252627;
-    border: 3px solid #707070;
+    width: 400px;
+    height: 20px;
+    padding:15px;
+    background-color: rgb(231, 231, 231);
+    border: 3px solid #2dd4cc;
     margin: 20px 0;
-    outline: none;
-    font-size: 1.2rem;
-    color: #fff;
+    font-size:16px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+textarea{
+    display: block;
+    width: 400px;
+    padding:15px;
+    background-color: rgb(231, 231, 231);
+    border: 3px solid #2dd4cc;
+    margin: 20px 0;
+    font-size:16px;
     position: relative;
     left: 50%;
     right: 50%;
@@ -368,6 +379,8 @@ textarea {
 }
 #contact form #btlast{
     width: 120px;
+    height: 50px;
+    justify-content: center;
     background-color: #ED5565;
     border: none;
     cursor: pointer;
