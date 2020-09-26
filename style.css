@@ -4,7 +4,7 @@
     box-sizing: border-box;   
 }
 body{
-    background-color:#CAFFEB;
+    background-color:white;
     flex-wrap: wrap;
 }
 html{
@@ -25,15 +25,13 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .navbar{
-    background:linear-gradient(rgba(7, 66, 44, 0.74),#25dfdf,rgba(73, 255, 179, 0.74),#25dfdf,rgba(7, 66, 44, 0.74));
+    background-color:#333;
+    border: 1px solid black;
+    
 }
-
-
-
-
 
 /*Container size
 
@@ -50,30 +48,23 @@ header{
 }
 */
 
-
-
-
-
 header h1,
 header a,
 .text p,
 .about h1,
 .work h1,
-.contact h1,
-.logo{
+.contact h1{
     color: black;
 }
 
 /* navbar */
-.logo h1{
-    cursor: not-allowed;
-    font-family: algerian;
+.navbar ul li a{
+    color: red;
 }
 li{
     list-style: none;
-    margin-left: 30px;
+    margin-left: 20px;
 }
-
 a{
     text-decoration: none;
     font-size: 16px;
@@ -84,16 +75,10 @@ a{
     transform: translateY(-50%);
     font-family:'Times New Roman', Times, serif;
 }
-
 .main-info-section{
     height: 100%;
 }
-
-
-
-
 /*Name style */
-
 
 
 
@@ -167,7 +152,7 @@ span.m-left{
 /*Profile Picture*/
 
 .profile-image img{
-    width:80%;
+    width:70%;
     height:85%;
     margin-top: 50px;
     margin-left: 23%;
@@ -402,12 +387,11 @@ footer p{
     font-size: 22px;
 }
 .ft{
-    
-    background:linear-gradient(rgba(50, 173, 122, 0.74),#25dfdf,rgba(0, 8, 5, 0.74));
+    background:#333;
 }
 .ft p{
     text-align: right;
-        color: black;
+        color: red;
 }
 .container-certificates{
     padding: 0 100px 0 100px;
@@ -521,3 +505,10 @@ a:hover .fa-java{
 a:hover .fa-github{
    color: #0e76a8;
 }
+/*******************CLOCK********************/
+#clock { 
+    font-size:30px; 
+    text-align:center;
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+} 
