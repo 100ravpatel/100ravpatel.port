@@ -413,7 +413,7 @@ footer p{
 }
 #sk{
     display: flex;
-    background: #e3edf7;
+    background: #333;
     height:200px;
     width: 150px;
     margin: 0 15px;
@@ -449,7 +449,7 @@ footer p{
 }
 .skillc a i{
     font-size:50px; 
-    color: #777;
+    color: rgb(255, 249, 249);
     transition: transforn 0.5s;
 }
 
