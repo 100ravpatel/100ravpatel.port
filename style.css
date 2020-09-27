@@ -170,6 +170,9 @@ span.m-left{
     opacity: .1;
     font-family:'Times New Roman', Times, serif;
 }
+#certificate h1 span{
+    font-size: 30px;
+}
 
 .skills h1,
 .work h1{
@@ -505,6 +508,9 @@ a:hover .fa-java{
 a:hover .fa-github{
    color: #0e76a8;
 }
+a:hover .fa-trophy{
+    color:#25dfdf;
+ }
 /*******************CLOCK********************/
 #clock { 
     font-size:30px; 
