@@ -389,8 +389,9 @@ footer p{
     background:#333;
 }
 .ft p{
-    text-align: right;
-        color: red;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
 }
 .container-certificates{
     padding: 0 100px 0 100px;

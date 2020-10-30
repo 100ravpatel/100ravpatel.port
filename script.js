@@ -66,7 +66,7 @@ function ht() {
 
 /* for java button */ 
 
-  function ja() {
+  function php() {
     var elem = document.getElementById("ja");   
     var width =0;
     var id = setInterval(frame, 10);
@@ -81,7 +81,7 @@ function ht() {
     }
   }
 
-  function php() {
+  function ja() {
     var elem = document.getElementById("php");   
     var width =0;
     var id = setInterval(frame, 10);
