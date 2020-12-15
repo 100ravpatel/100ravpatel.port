@@ -265,15 +265,21 @@ button:hover{
     bottom: 0;
     right: 0;
     margin: auto;
+    
 }
+
 .sediv{
     position: absolute;
-    margin: auto;
     white-space: nowrap;
     align-items: right;
     justify-self: inline;
     display: inline-block;
     left: 40%;
+    
+    
+}
+.sediv #cssbt{
+    padding-top: 5px;
 }
 .inmain{
     width: 400px;

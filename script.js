@@ -95,6 +95,20 @@ function ht() {
       }
     }
   }
+  function boot() {
+    var elem = document.getElementById("boot");   
+    var width =0;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 50) {
+        clearInterval(id);
+      } else {
+        width++; 
+        elem.style.width = width + '%'; 
+        elem.innerHTML = width * 1  + '%';
+      }
+    }
+  }
   setInterval(showTime, 1000); 
   function showTime() { 
       let time = new Date(); 
